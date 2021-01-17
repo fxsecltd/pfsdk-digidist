@@ -1,0 +1,149 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/p4n/!svn/ver/19/signup/fingerprinter/rsaref
+END
+targets.mak
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/p4n/!svn/ver/19/signup/fingerprinter/rsaref/targets.mak
+END
+digit.c
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/p4n/!svn/ver/19/signup/fingerprinter/rsaref/digit.c
+END
+r_random.c
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/p4n/!svn/ver/19/signup/fingerprinter/rsaref/r_random.c
+END
+r_stdlib.c
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/p4n/!svn/ver/19/signup/fingerprinter/rsaref/r_stdlib.c
+END
+r_keygen.c
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/p4n/!svn/ver/19/signup/fingerprinter/rsaref/r_keygen.c
+END
+global.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/p4n/!svn/ver/19/signup/fingerprinter/rsaref/global.h
+END
+digit.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/p4n/!svn/ver/19/signup/fingerprinter/rsaref/digit.h
+END
+r_random.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/p4n/!svn/ver/19/signup/fingerprinter/rsaref/r_random.h
+END
+nn.c
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/p4n/!svn/ver/19/signup/fingerprinter/rsaref/nn.c
+END
+r_dh.c
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/p4n/!svn/ver/19/signup/fingerprinter/rsaref/r_dh.c
+END
+prime.c
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/p4n/!svn/ver/19/signup/fingerprinter/rsaref/prime.c
+END
+r_enhanc.c
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/p4n/!svn/ver/19/signup/fingerprinter/rsaref/r_enhanc.c
+END
+r_encode.c
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/p4n/!svn/ver/19/signup/fingerprinter/rsaref/r_encode.c
+END
+desc.c
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/p4n/!svn/ver/19/signup/fingerprinter/rsaref/desc.c
+END
+nn.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/p4n/!svn/ver/19/signup/fingerprinter/rsaref/nn.h
+END
+des.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/p4n/!svn/ver/19/signup/fingerprinter/rsaref/des.h
+END
+prime.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/p4n/!svn/ver/19/signup/fingerprinter/rsaref/prime.h
+END
+md2c.c
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/p4n/!svn/ver/19/signup/fingerprinter/rsaref/md2c.c
+END
+rsa.c
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/p4n/!svn/ver/19/signup/fingerprinter/rsaref/rsa.c
+END
+md2.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/p4n/!svn/ver/19/signup/fingerprinter/rsaref/md2.h
+END
+rsaref.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/p4n/!svn/ver/19/signup/fingerprinter/rsaref/rsaref.h
+END
+md5c.c
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/p4n/!svn/ver/19/signup/fingerprinter/rsaref/md5c.c
+END
+md5.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/p4n/!svn/ver/19/signup/fingerprinter/rsaref/md5.h
+END
+rsa.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/p4n/!svn/ver/19/signup/fingerprinter/rsaref/rsa.h
+END

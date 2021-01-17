@@ -1,0 +1,149 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/p4n/!svn/ver/9/signup/personifier/rsaref
+END
+targets.mak
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/p4n/!svn/ver/9/signup/personifier/rsaref/targets.mak
+END
+digit.c
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/p4n/!svn/ver/9/signup/personifier/rsaref/digit.c
+END
+r_random.c
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/p4n/!svn/ver/9/signup/personifier/rsaref/r_random.c
+END
+r_stdlib.c
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/p4n/!svn/ver/9/signup/personifier/rsaref/r_stdlib.c
+END
+r_keygen.c
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/p4n/!svn/ver/9/signup/personifier/rsaref/r_keygen.c
+END
+global.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/p4n/!svn/ver/9/signup/personifier/rsaref/global.h
+END
+digit.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/p4n/!svn/ver/9/signup/personifier/rsaref/digit.h
+END
+r_random.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/p4n/!svn/ver/9/signup/personifier/rsaref/r_random.h
+END
+nn.c
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/p4n/!svn/ver/9/signup/personifier/rsaref/nn.c
+END
+r_dh.c
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/p4n/!svn/ver/9/signup/personifier/rsaref/r_dh.c
+END
+prime.c
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/p4n/!svn/ver/9/signup/personifier/rsaref/prime.c
+END
+r_enhanc.c
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/p4n/!svn/ver/9/signup/personifier/rsaref/r_enhanc.c
+END
+r_encode.c
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/p4n/!svn/ver/9/signup/personifier/rsaref/r_encode.c
+END
+desc.c
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/p4n/!svn/ver/9/signup/personifier/rsaref/desc.c
+END
+nn.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/p4n/!svn/ver/9/signup/personifier/rsaref/nn.h
+END
+des.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/p4n/!svn/ver/9/signup/personifier/rsaref/des.h
+END
+prime.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/p4n/!svn/ver/9/signup/personifier/rsaref/prime.h
+END
+md2c.c
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/p4n/!svn/ver/9/signup/personifier/rsaref/md2c.c
+END
+rsa.c
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/p4n/!svn/ver/9/signup/personifier/rsaref/rsa.c
+END
+md2.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/p4n/!svn/ver/9/signup/personifier/rsaref/md2.h
+END
+rsaref.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/p4n/!svn/ver/9/signup/personifier/rsaref/rsaref.h
+END
+md5c.c
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/p4n/!svn/ver/9/signup/personifier/rsaref/md5c.c
+END
+md5.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/p4n/!svn/ver/9/signup/personifier/rsaref/md5.h
+END
+rsa.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/p4n/!svn/ver/9/signup/personifier/rsaref/rsa.h
+END

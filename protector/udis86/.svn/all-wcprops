@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/p4n/!svn/ver/9/signup/protector/udis86
+END
+syn-att.c
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/p4n/!svn/ver/9/signup/protector/udis86/syn-att.c
+END
+input.c
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/p4n/!svn/ver/9/signup/protector/udis86/input.c
+END
+input.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/p4n/!svn/ver/9/signup/protector/udis86/input.h
+END
+types.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/p4n/!svn/ver/9/signup/protector/udis86/types.h
+END
+syn.c
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/p4n/!svn/ver/9/signup/protector/udis86/syn.c
+END
+extern.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/p4n/!svn/ver/9/signup/protector/udis86/extern.h
+END
+syn.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/p4n/!svn/ver/9/signup/protector/udis86/syn.h
+END
+mnemonics.dat
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/p4n/!svn/ver/9/signup/protector/udis86/mnemonics.dat
+END
+opcmap.c
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/p4n/!svn/ver/9/signup/protector/udis86/opcmap.c
+END
+mnemonics.pl
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/p4n/!svn/ver/9/signup/protector/udis86/mnemonics.pl
+END
+udis86.c
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/p4n/!svn/ver/9/signup/protector/udis86/udis86.c
+END
+syn-intel.c
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/p4n/!svn/ver/9/signup/protector/udis86/syn-intel.c
+END
+decode.c
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/p4n/!svn/ver/9/signup/protector/udis86/decode.c
+END
+opcmap.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/p4n/!svn/ver/9/signup/protector/udis86/opcmap.h
+END
+mnemonics.c
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/p4n/!svn/ver/9/signup/protector/udis86/mnemonics.c
+END
+mnemonics.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/p4n/!svn/ver/9/signup/protector/udis86/mnemonics.h
+END

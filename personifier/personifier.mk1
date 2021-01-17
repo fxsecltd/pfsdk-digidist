@@ -1,0 +1,123 @@
+!define BLANK ""
+C:\123\su\signup\personifier\personifier.obj : C:\123\su\signup\personifier\&
+personifier.c .AUTODEPEND
+ @C:
+ cd C:\123\su\signup\personifier
+ *wcc386 personifier.c -i="C:\WATCOM/lh" -w4 -e25 -zq -otexan -d1 -6r -bt=li&
+nux -fo=.obj -mf
+
+C:\123\su\signup\personifier\desc.obj : C:\123\su\signup\personifier\rsaref\&
+desc.c .AUTODEPEND
+ @C:
+ cd C:\123\su\signup\personifier
+ *wcc386 rsaref\desc.c -i="C:\WATCOM/lh" -w4 -e25 -zq -otexan -d1 -6r -bt=li&
+nux -fo=.obj -mf
+
+C:\123\su\signup\personifier\digit.obj : C:\123\su\signup\personifier\rsaref&
+\digit.c .AUTODEPEND
+ @C:
+ cd C:\123\su\signup\personifier
+ *wcc386 rsaref\digit.c -i="C:\WATCOM/lh" -w4 -e25 -zq -otexan -d1 -6r -bt=l&
+inux -fo=.obj -mf
+
+C:\123\su\signup\personifier\md2c.obj : C:\123\su\signup\personifier\rsaref\&
+md2c.c .AUTODEPEND
+ @C:
+ cd C:\123\su\signup\personifier
+ *wcc386 rsaref\md2c.c -i="C:\WATCOM/lh" -w4 -e25 -zq -otexan -d1 -6r -bt=li&
+nux -fo=.obj -mf
+
+C:\123\su\signup\personifier\md5c.obj : C:\123\su\signup\personifier\rsaref\&
+md5c.c .AUTODEPEND
+ @C:
+ cd C:\123\su\signup\personifier
+ *wcc386 rsaref\md5c.c -i="C:\WATCOM/lh" -w4 -e25 -zq -otexan -d1 -6r -bt=li&
+nux -fo=.obj -mf
+
+C:\123\su\signup\personifier\nn.obj : C:\123\su\signup\personifier\rsaref\nn&
+.c .AUTODEPEND
+ @C:
+ cd C:\123\su\signup\personifier
+ *wcc386 rsaref\nn.c -i="C:\WATCOM/lh" -w4 -e25 -zq -otexan -d1 -6r -bt=linu&
+x -fo=.obj -mf
+
+C:\123\su\signup\personifier\prime.obj : C:\123\su\signup\personifier\rsaref&
+\prime.c .AUTODEPEND
+ @C:
+ cd C:\123\su\signup\personifier
+ *wcc386 rsaref\prime.c -i="C:\WATCOM/lh" -w4 -e25 -zq -otexan -d1 -6r -bt=l&
+inux -fo=.obj -mf
+
+C:\123\su\signup\personifier\r_dh.obj : C:\123\su\signup\personifier\rsaref\&
+r_dh.c .AUTODEPEND
+ @C:
+ cd C:\123\su\signup\personifier
+ *wcc386 rsaref\r_dh.c -i="C:\WATCOM/lh" -w4 -e25 -zq -otexan -d1 -6r -bt=li&
+nux -fo=.obj -mf
+
+C:\123\su\signup\personifier\r_encode.obj : C:\123\su\signup\personifier\rsa&
+ref\r_encode.c .AUTODEPEND
+ @C:
+ cd C:\123\su\signup\personifier
+ *wcc386 rsaref\r_encode.c -i="C:\WATCOM/lh" -w4 -e25 -zq -otexan -d1 -6r -b&
+t=linux -fo=.obj -mf
+
+C:\123\su\signup\personifier\r_enhanc.obj : C:\123\su\signup\personifier\rsa&
+ref\r_enhanc.c .AUTODEPEND
+ @C:
+ cd C:\123\su\signup\personifier
+ *wcc386 rsaref\r_enhanc.c -i="C:\WATCOM/lh" -w4 -e25 -zq -otexan -d1 -6r -b&
+t=linux -fo=.obj -mf
+
+C:\123\su\signup\personifier\r_keygen.obj : C:\123\su\signup\personifier\rsa&
+ref\r_keygen.c .AUTODEPEND
+ @C:
+ cd C:\123\su\signup\personifier
+ *wcc386 rsaref\r_keygen.c -i="C:\WATCOM/lh" -w4 -e25 -zq -otexan -d1 -6r -b&
+t=linux -fo=.obj -mf
+
+C:\123\su\signup\personifier\r_random.obj : C:\123\su\signup\personifier\rsa&
+ref\r_random.c .AUTODEPEND
+ @C:
+ cd C:\123\su\signup\personifier
+ *wcc386 rsaref\r_random.c -i="C:\WATCOM/lh" -w4 -e25 -zq -otexan -d1 -6r -b&
+t=linux -fo=.obj -mf
+
+C:\123\su\signup\personifier\r_stdlib.obj : C:\123\su\signup\personifier\rsa&
+ref\r_stdlib.c .AUTODEPEND
+ @C:
+ cd C:\123\su\signup\personifier
+ *wcc386 rsaref\r_stdlib.c -i="C:\WATCOM/lh" -w4 -e25 -zq -otexan -d1 -6r -b&
+t=linux -fo=.obj -mf
+
+C:\123\su\signup\personifier\rsa.obj : C:\123\su\signup\personifier\rsaref\r&
+sa.c .AUTODEPEND
+ @C:
+ cd C:\123\su\signup\personifier
+ *wcc386 rsaref\rsa.c -i="C:\WATCOM/lh" -w4 -e25 -zq -otexan -d1 -6r -bt=lin&
+ux -fo=.obj -mf
+
+C:\123\su\signup\personifier\personifier.lib : C:\123\su\signup\personifier\&
+personifier.obj C:\123\su\signup\personifier\desc.obj C:\123\su\signup\perso&
+nifier\digit.obj C:\123\su\signup\personifier\md2c.obj C:\123\su\signup\pers&
+onifier\md5c.obj C:\123\su\signup\personifier\nn.obj C:\123\su\signup\person&
+ifier\prime.obj C:\123\su\signup\personifier\r_dh.obj C:\123\su\signup\perso&
+nifier\r_encode.obj C:\123\su\signup\personifier\r_enhanc.obj C:\123\su\sign&
+up\personifier\r_keygen.obj C:\123\su\signup\personifier\r_random.obj C:\123&
+\su\signup\personifier\r_stdlib.obj C:\123\su\signup\personifier\rsa.obj .AU&
+TODEPEND
+ @C:
+ cd C:\123\su\signup\personifier
+ %create personifier.lb1
+!ifneq BLANK "personifier.obj desc.obj digit.obj md2c.obj md5c.obj nn.obj pr&
+ime.obj r_dh.obj r_encode.obj r_enhanc.obj r_keygen.obj r_random.obj r_stdli&
+b.obj rsa.obj"
+ @for %i in (personifier.obj desc.obj digit.obj md2c.obj md5c.obj nn.obj pri&
+me.obj r_dh.obj r_encode.obj r_enhanc.obj r_keygen.obj r_random.obj r_stdlib&
+.obj rsa.obj) do @%append personifier.lb1 +'%i'
+!endif
+!ifneq BLANK ""
+ @for %i in () do @%append personifier.lb1 +'%i'
+!endif
+ *wlib -b -c -n -q -x -p=512 personifier.lib @personifier.lb1
+

@@ -1,0 +1,3 @@
+EXPORTS
+initialize
+LIBRARY	"libprotect"
