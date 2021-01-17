@@ -58,7 +58,7 @@ BOOL __stdcall DllMain( HMODULE hModule,
 		case DLL_PROCESS_ATTACH:
 			gInst = hModule;
 			hMutex = CreateMutex(NULL,FALSE,NULL);
-			threads = (DWORD *)HeapAlloc(GetProcessHeap(),HEAP_ZERO_MEMORY,sizeof(HANDLE) * 1024);
+			threads = (DWORD *)HeapAlloc(GetProcessHeap(),HEAP_ZERO_MEMORY,sizeof(DWORD) * 1024);
 			threads[thrCount++]=GetCurrentThreadId();
 			break;
 		case DLL_THREAD_ATTACH:
