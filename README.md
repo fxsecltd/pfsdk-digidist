@@ -5,4 +5,5 @@
 Please, read articles:<br>
 https://xss.is/threads/46811/<br>
 https://xss.is/threads/46889/<br>
+https://xss.is/threads/46971/<br>
 Donations: 1L4xj1ejznfXc1azuRCjcU9DDLXtTJfpm2<br>
