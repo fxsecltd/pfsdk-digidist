@@ -82,7 +82,7 @@ __cdecl wmain( int argc, wchar_t *argv[ ], wchar_t *envp[ ] )
 				char *dbprotect, opcode;
 				if(ISAMD64)memmove(&imageBase,&inh2->OptionalHeader.ImageBase,sizeof(__int64));
 				else memmove(&imageBase,&inh->OptionalHeader.ImageBase,sizeof(int));
-				memset(&namebuff,0,sizeof(namebuff));
+				//memset(&namebuff,0,sizeof(namebuff));
 				if(sqlite3_step(statement)==SQLITE_ROW)
 				{
 					DWORD nbr;
@@ -106,9 +106,9 @@ __cdecl wmain( int argc, wchar_t *argv[ ], wchar_t *envp[ ] )
                 if(dbprotect && dbprotect_size)
                 {
 					R_RSA_PRIVATE_KEY *PRIVATE_KEY = (R_RSA_PRIVATE_KEY *)(dbprotect + dbprotect_size - sizeof(R_RSA_PRIVATE_KEY));
-					R_RSA_PUBLIC_KEY *PUBLIC_KEY = (R_RSA_PUBLIC_KEY *)(dbprotect + dbprotect_size - sizeof(R_RSA_PUBLIC_KEY) - sizeof(R_RSA_PRIVATE_KEY));
-					char *seciv = (char *)(dbprotect + dbprotect_size - sizeof(R_RSA_PUBLIC_KEY) - sizeof(R_RSA_PRIVATE_KEY) - CODE_DES_IV_SIZE);
-					char *seckey = (char *)(dbprotect + dbprotect_size - sizeof(R_RSA_PUBLIC_KEY) - sizeof(R_RSA_PRIVATE_KEY) - CODE_DES_IV_SIZE - CODE_DES_KEY_SIZE);
+					//R_RSA_PUBLIC_KEY *PUBLIC_KEY = (R_RSA_PUBLIC_KEY *)(dbprotect + dbprotect_size - sizeof(R_RSA_PUBLIC_KEY) - sizeof(R_RSA_PRIVATE_KEY));
+					//char *seciv = (char *)(dbprotect + dbprotect_size - sizeof(R_RSA_PUBLIC_KEY) - sizeof(R_RSA_PRIVATE_KEY) - CODE_DES_IV_SIZE);
+					//char *seckey = (char *)(dbprotect + dbprotect_size - sizeof(R_RSA_PUBLIC_KEY) - sizeof(R_RSA_PRIVATE_KEY) - CODE_DES_IV_SIZE - CODE_DES_KEY_SIZE);
 					int err,entries = *((int *)((char *)(dbprotect + dbprotect_size - sizeof(R_RSA_PUBLIC_KEY) - sizeof(R_RSA_PRIVATE_KEY) - CODE_DES_IV_SIZE - CODE_DES_KEY_SIZE) - NUM_ENTRIES_SIZE));
 					unsigned __int64 *entry = (unsigned __int64 *)(dbprotect + dbprotect_size - NUM_ENTRIES_SIZE - sizeof(unsigned __int64) * entries - sizeof(R_RSA_PUBLIC_KEY) - sizeof(R_RSA_PRIVATE_KEY) - CODE_DES_IV_SIZE - CODE_DES_KEY_SIZE);
 					struct ud uds;
@@ -201,9 +201,6 @@ __cdecl wmain( int argc, wchar_t *argv[ ], wchar_t *envp[ ] )
 				UnmapViewOfFile(BaseAddr);
 				CloseHandle(hMap);
 				CloseHandle(hFile);
-				UnmapViewOfFile(dbprotect);
-				CloseHandle(hPMap);
-				CloseHandle(hProtect);
 			}else
 			{
 				printf("Target file's view of mapping IO error\n");
