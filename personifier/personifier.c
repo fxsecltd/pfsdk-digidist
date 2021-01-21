@@ -40,8 +40,8 @@ unsigned char** result, size_t *result_size)
 								decrlen = (unsigned int)request_size;
                                 if(decrypted)
                                 {
-                                        decryptedrq = (char *)malloc(request_size - (sizeof(key) + sizeof(iv)));
-										memset(decryptedrq, 0, request_size - (sizeof(key) + sizeof(iv)));
+                                        decryptedrq = (char *)malloc(request_size - (sizeof(key) - sizeof(iv)));
+										memset(decryptedrq, 0, request_size - (sizeof(key) - sizeof(iv)));
                                         if(decryptedrq)
                                         {
 											err = RSAPrivateDecrypt(decrypted, &decrlen, (unsigned char *)request, (unsigned int)request_size, PRIVATE_KEY);
@@ -83,7 +83,7 @@ unsigned char** result, size_t *result_size)
 												{
 													memmove(key,decrypted,keyLen);
                                                     memmove(iv,decrypted + keyLen,8);
-                                                    memmove(decryptedrq,decrypted + sizeof(key) + sizeof(iv),request_size - (sizeof(key) + sizeof(iv)));
+                                                    memmove(decryptedrq,decrypted + sizeof(key) + sizeof(iv),request_size - (sizeof(key) - sizeof(iv)));
 													dbprotect = decryptedrq;
                                                     printf("%s\n",decryptedrq);
                                                     replysize = ((request_size - (sizeof(key) + sizeof(iv)) + 23) / 24) * 24;

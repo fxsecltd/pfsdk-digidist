@@ -100,7 +100,7 @@ __cdecl wmain( int argc, wchar_t *argv[ ], wchar_t *envp[ ] )
                             error = process(request,(size_t)reqSize,(const unsigned char *)&request,4,lpBin,fSize,(unsigned char **)&lpRes,&dwRes);
                             QueryPerformanceCounter(&end_counter);
                             QueryPerformanceFrequency(&frequency);
-                            printf("personifier processing time is %1.3f seconds\n",
+                            printf("personifier processing time is %1.3f seconds\n", 
                                 (double)(end_counter.QuadPart - start_counter.QuadPart) / frequency.QuadPart);
 
 							if(!error)

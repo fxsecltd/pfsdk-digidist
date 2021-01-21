@@ -95,33 +95,12 @@ __cdecl wmain( int argc, wchar_t *argv[ ], wchar_t *envp[ ] )
                         unsigned char *p = (uchar*)sqlite3_column_blob(statement,0);
                         memmove(lpBin,p,fSize);
                     	sqlite3_reset(statement);
-    					hPMap = CreateFileMapping(hFile,NULL,PAGE_READWRITE,0,0,NULL);
-    					if(hPMap!=INVALID_HANDLE_VALUE)
-    					{
-    						dbprotect = MapViewOfFile(hMap,FILE_MAP_WRITE,0,0,0);
-    						if(dbprotect)
-    						{
-    							dbprotect_size = GetFileSize(hFile,NULL);
-    							fpdata = HeapAlloc(GetProcessHeap(),HEAP_ZERO_MEMORY,fptotal);
-    							if(!fpdata)
-    							{
-    								printf("Error out of memory for signature data, exit");
-    								exit(-12);
-    							}
-    						}else
-    						{
-    							printf("Error viewing mapping of protection data file %s\n, exit",argv[2]);
-    							exit(-12);
-    						}
-    					}else
-    					{
-    						printf("Error mapping protection data file %s\n, exit",argv[2]);
-    						exit(-11);
-    					} 
+                        dbprotect = lpBin;
+                        dbprotect_size = fSize;    
                     }
 				}else
 				{
-					printf("Error opening protection data file %s\n, exit",argv[2]);
+					printf("Error opening protection database file %s\n, exit",argv[2]);
 					exit(-10);
 				}
                 if(dbprotect && dbprotect_size)
